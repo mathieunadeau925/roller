@@ -2,16 +2,16 @@
   <div class="row">
     <div class="col-12">
       <div class="card bg-secondary text-white text-center">
-        <div v-if="hasErrors" class="bg-warning text-secondary p-3">
+        <div v-if="hasErrors" class="bg-warning text-secondary p-2">
           This name is already used.
         </div>
         <transition name="fade">
-          <div v-if="isEmpty" class="bg-warning text-secondary p-3">
+          <div v-if="isEmpty" class="bg-warning text-secondary p-2">
             Please enter a name.
           </div>
         </transition>
         <h5 class="py-2">Enter the player name</h5>
-        <div class="row align-items-center justify-content-center pb-3">
+        <div class="row align-items-center justify-content-center pb-2">
           <div class="col-xs-12 col-md-auto p-2 input-group fit-content">
             <input class="form-control" type="text" v-model="playerName" v-on:keyup.enter="addPlayer" />
           </div>

@@ -1,9 +1,9 @@
 <template>
-      <div class="row py-3">
+      <div class="row py-2">
         <div
           v-for="(player, index) in playersList"
           :key="player.id"
-          class="col-md-3 col-xs-6 pb-3"
+          class="col-md-3 col-6 pb-2"
         >
           <div
             :class="getComputedClassBg(index)"

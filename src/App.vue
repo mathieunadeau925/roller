@@ -18,6 +18,6 @@ export default {
 <style>
  html, body {
    height: 100%;
-   
+   overflow-y: auto;
  }
 </style>
